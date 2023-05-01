@@ -1,0 +1,13 @@
+@import 'fonts';
+
+body {
+  background: url("@static/images/bg.jpg") 0 0 no-repeat;
+
+  * {
+    font-family: Rubik;
+  }
+
+  p {
+    color: white;
+  }
+}

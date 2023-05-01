@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "path-autocomplete.pathMappings": {
+    "@static": "${folder}/src/static",
+    "@styles": "${folder}/src/styles",
+    "@js": "${folder}/src/scripts"
+  },
+  "editor.tabSize": 2,
+  "[pug]": {
+    "editor.tabSize": 4
+  }
+}
