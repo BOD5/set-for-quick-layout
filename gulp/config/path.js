@@ -3,7 +3,7 @@ import path from "path";
 const root = path.resolve();
 
 const buildFolder = `${root}/dist`;
-const srcFolder = `${root}/src`;
+const srcFolder = `./src`;
 
 export default {
   build: {
@@ -30,6 +30,7 @@ export default {
       `${srcFolder}/templates/pages/*.html`,
       `${srcFolder}/templates/pages/*.pug`,
     ],
+    pug: `${srcFolder}/templates/**/*.pug`,
   },
   watch: {
     images: `${srcFolder}/static/images/**/*.{jpg,jpeg,png,gif,webp,svg}`,
